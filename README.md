@@ -39,7 +39,7 @@ This project uses two publicly available medical imaging datasets for evaluating
 
 ### 💾 Pre-trained Checkpoints
 
-Pre-trained weights of the classification networks are included in the repository: ResNet-18 and DeiT models trained on KvasirV2 and GastroVision datasets can be found [here for Kvasir - ResNet-18](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/resnet18/kvasir.pt), [GastroVision - ResNet-18](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/resnet18/gastrovision.pt), [Kvasir - DeiT](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/deit/kvasir.pt), and [GastroVision - DeiT](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/deit/gastrovision.pt).
+Pre-trained weights of the classification networks are included in the repository: ResNet-18 and DeiT models trained on KvasirV2 and GastroVision datasets can be found [here for Kvasir - ResNet-18](https://github.com/bhattarailab/NERO/blob/main/checkpoints/resnet18/kvasir.pt), [GastroVision - ResNet-18](https://github.com/bhattarailab/NERO/blob/main/checkpoints/resnet18/gastrovision.pt), [Kvasir - DeiT](https://github.com/bhattarailab/NERO/blob/main/checkpoints/deit/kvasir.pt), and [GastroVision - DeiT](https://github.com/bhattarailab/NERO/blob/main/checkpoints/deit/gastrovision.pt).
 
 ## 🚀 Running OOD Detection
 

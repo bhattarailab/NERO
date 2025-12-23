@@ -27,11 +27,21 @@ cd NERO
 ## 📂 Dataset Sources
 This project uses two publicly available medical imaging datasets for evaluating OOD detection methods: [KvasirV2](https://datasets.simula.no/kvasir/) and [Gastrovision](https://github.com/DebeshJha/GastroVision)
 
-<!-- ### 💾 Pre-trained Checkpoints
 
-Pre-trained weights of the classification networks are included in the repository: ResNet-18 and DeiT models trained on KvasirV2 and GastroVision datasets can be found [here for Kvasir - ResNet-18](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/resnet18/kvasir.pt), [GastroVision - ResNet-18](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/resnet18/gastrovision.pt), [Kvasir - DeiT](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/deit/kvasir.pt), and [GastroVision - DeiT](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/deit/gastrovision.pt). -->
+## 🧪 Example Scripts for Training and Inference
+To get started, clone the repository:
+```
+git clone https://github.com/bhattarailab/NERO.git
+cd NERO
+```
+## 📂 Dataset Sources
+This project uses two publicly available medical imaging datasets for evaluating OOD detection methods: [KvasirV2](https://datasets.simula.no/kvasir/) and [Gastrovision](https://github.com/DebeshJha/GastroVision)
 
-<!-- ## 🚀 Running OOD Detection
+### 💾 Pre-trained Checkpoints
+
+Pre-trained weights of the classification networks are included in the repository: ResNet-18 and DeiT models trained on KvasirV2 and GastroVision datasets can be found [here for Kvasir - ResNet-18](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/resnet18/kvasir.pt), [GastroVision - ResNet-18](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/resnet18/gastrovision.pt), [Kvasir - DeiT](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/deit/kvasir.pt), and [GastroVision - DeiT](https://github.com/anju-chhetri/NERO/blob/master/checkpoints/deit/gastrovision.pt).
+
+## 🚀 Running OOD Detection
 
 To run OOD detection on the **KvasirV2** dataset:
 
@@ -56,7 +66,8 @@ python3 ood/eval_ood.py \
     --ood_path 'path/to/ood/data'
 
 ```
-Modify the paths and options as needed for your dataset, model architecture, or checkpoint location. -->
+Modify the paths and options as needed for your dataset, model architecture, or checkpoint location.
+
 ## Results
 # ResNet-18:
 
@@ -90,5 +101,3 @@ Modify the paths and options as needed for your dataset, model architecture, or 
 | Energy+ReAct  | 83.49      | 46.84| 73.42        | 83.22|
 | GradNorm      | 71.33      | 57.8 | 54.85        | 88.68|
 | NERO (ours)   | 92.73      | **18.96**| **82.03**| **76.74**|
-
-**🚀 Information: We will soon release the dataset and evaluation code ....**
